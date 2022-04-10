@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ResumeBuilder</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Resume Builder App</string>
+    <string name="nav_header_subtitle">resumeapp@miu.edu</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_contact">Contacts</string>
+    <string name="menu_corecompetencies">Work Experience</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_conf">Basic Info Config</string>
+    <string name="menu_about">About Me</string>
+
+    <string name="menu_tech_skills">Technical Skills</string>
+    <string name="brief_tech_skills">Select your technical Skills</string>
+
+
+    <string name="selected_item">Selected item:</string>
+
+
+    <string name="menu_contact_name">Name:</string>
+    <string name="menu_contact_email">Email Address:</string>
+    <string name="menu_contact_phone">Phone:</string>
+    <string name="menu_contact_linkedin">LinkedIn Profile:</string>
+
+    <string name="brief_cool_projects">Describe the Projects you have Handled</string>
+
+
+</resources>

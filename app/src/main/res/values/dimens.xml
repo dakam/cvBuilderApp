@@ -1,0 +1,13 @@
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="btn_margin">15dp</dimen>
+    <dimen name="logo_h">55dp</dimen>
+    <dimen name="logo_w">7600dp</dimen>
+    <dimen name="title">25sp</dimen>
+    <dimen name="cat_img">250dp</dimen>
+    <dimen name="cat_img_h">270dp</dimen>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/borders"
+        android:textColor="@color/colorPrimary"
+        android:id="@+id/edit_tv_about"
+        android:text=""
+        />
+
+    <ImageView
+        android:layout_width="@dimen/logo_w"
+        android:layout_height="@dimen/logo_h"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:contentDescription="logo"
+        android:src="@drawable/about">
+    </ImageView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Create or Edit About Me Info"
+        android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:text="Projects Executed" />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/about_pro"
+        android:layout_gravity="center"
+        android:layout_height="50dp">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:text="Recent School Attended"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/about_school"
+        android:layout_gravity="center"
+        android:layout_height="50dp">
+    </EditText>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="left"
+        android:text="Year Attended"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/about_year"
+        android:layout_gravity="center"
+        android:layout_height="50dp">
+    </EditText>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:id="@+id/btn_about_add"
+        android:layout_gravity="center"
+        android:textAllCaps="false"
+        android:text="Save">
+    </Button>
+</LinearLayout>
